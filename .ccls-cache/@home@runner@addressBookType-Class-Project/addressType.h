@@ -63,10 +63,8 @@ public:
     // Print method
     void print() const
     {
-        cout << "Address: " << address << endl;
-        cout << "City: " << city << endl;
-        cout << "State: " << state << endl;
-        cout << "Zipcode: " << zipcode << endl;
+        cout << address << endl;
+        cout << city << " " << state << ", " << zipcode << endl;
     }
 
 private:
